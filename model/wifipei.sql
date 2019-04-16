@@ -26,8 +26,8 @@ CREATE TABLE IF NOT EXISTS `wifis` (
   `direcci_n` varchar(250) DEFAULT NULL,
   `municipio` varchar(250) DEFAULT NULL,
   `no` int(11) DEFAULT NULL,
-  `nombre_de_la_zona_wifi` int(11) DEFAULT NULL,
-  `operador` int(11) DEFAULT NULL,
+  `nombre_de_la_zona_wifi` varchar(250) DEFAULT NULL,
+  `operador` int(11) varchar(250) DEFAULT NULL,
   `total_aps` int(11) DEFAULT NULL,
   `created_at` date DEFAULT NULL,
   PRIMARY KEY (`id`)
